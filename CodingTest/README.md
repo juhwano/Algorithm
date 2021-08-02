@@ -6,7 +6,6 @@
 |백준|[acmicpc.net](https://acmicpc.net/)|여러 문제를 풀고 그에 따라 문제집이나 랭킹을 서로 공유할 수 있으며, 경시대회/대항전 등의 형태로 다양한 알고리즘 대회도 개최|
 |삼성 SW Expert Academy|[swexpertacademy.com](https://swexpertacademy.com/)|SW 역량테스트, 레벨 테스트 등 상시 제공|
 |코드그라운드|[codeground.org](https://codeground.org/)||
-|정올|[jungol.co.kr](https://jungol.co.k/r)||
 |코드업|[codeup.kr](https://codeup.kr/)||
 |알고스팟|[algospot.com](https://algospot.com/)||
 |코딩도장|[codingdojang.com](https://codingdojang.com/)||
