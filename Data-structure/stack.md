@@ -110,8 +110,117 @@ class Stack {
   console.log('stack', stack); //[1, 2]
 ```
 
+#### Java
+  
+```java
+class Stack {
+
+	int top;
+	int[] stack;
+	int size;
+
+	public Stack(int size) {
+		top = -1;
+		stack = new int[size];
+		this.size = size;
+	}
+
+	public int peek() {
+		return stack[top];        
+	}
+
+	public void push(int value) {
+		stack[++top] = value;
+		System.out.println(stack[top] + " PUSH !");
+	}
+
+	public int pop() {
+		System.out.println(stack[top] + " POP !");
+		return stack[top--];
+	}
+
+	public void printStack() {
+		System.out.println("-- STACK LIST --");
+		for (int i = top; i >= 0; i--)
+			System.out.println(stack[i]);
+		System.out.println("-- END OF LIST --");
+	}
+}
   
   
+```  
+  
+```java
+public class MainStack {
+	public static void main(String args[]) {
+    // 스택 동작 테스트
+		Stack st = new Stack(100);
+		st.push(5);
+		st.push(2);
+		st.push(3);
+		st.push(4);
+		st.push(1);
+
+		st.printStack();
+
+		st.pop();
+		st.pop();
+
+		st.push(15);
+
+		st.printStack();
+
+		st.peek();
+		
+		st.pop();
+		st.pop();
+		st.pop();
+		st.pop();
+		
+		st.push(30);
+		
+		st.peek();
+	}
+
+}  
+```  
+```java
+//실행결과
+
+5 PUSH !
+2 PUSH !
+3 PUSH !
+4 PUSH !
+1 PUSH !
+
+-- STACK LIST --
+1
+4
+3
+2
+5
+
+-- END OF LIST --
+1 POP !
+4 POP !
+15 PUSH !
+
+-- STACK LIST --
+15
+3
+2
+5
+
+-- END OF LIST --
+PEEK : 15
+15 POP !
+3 POP !
+2 POP !
+5 POP !
+30 PUSH !
+PEEK : 30  
+```  
+ 
 </a>
 
 <br/>
