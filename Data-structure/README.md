@@ -5,3 +5,5 @@
 - [stack](https://github.com/juhwano/Algorithm/blob/master/Data-structure/stack.md)
 
 - [queue](https://github.com/juhwano/Algorithm/blob/master/Data-structure/queue.md)
+
+- [tree](https://github.com/juhwano/Algorithm/blob/master/Data-structure/tree.md)
